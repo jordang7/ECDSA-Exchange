@@ -31,7 +31,6 @@ document.getElementById("transfer-amount").addEventListener('click', () => {
     sender:sender,
     amount:amount,
     recipient:recipient,
-    key:key
   }
 
   const msgHash = SHA256(message).toString();
